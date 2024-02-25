@@ -10,10 +10,11 @@ def main():
     m_perc = (male/100) * 100
     f_perc = (female/100) * 100
     total = int(str(male)) + int(str(female))
+    formatted_str =(f'The percentage of males and females \t {m_perc:.2f}% \t {f_perc:.2f}%')
 
-    print(f'The total number of students: \t {total:3d}')
+    print(f'The total number of students \t \t {total:3d}')
     print(f'The number of males and females \t {male:3d} \t {female:3d}')
-    print(f'The percentage of males and females \t {m_perc:.2f} \t {f_perc:.2f}')
+    print(formatted_str)
     """
     ########################################
     # Do not delete the return statement
